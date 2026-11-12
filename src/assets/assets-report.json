@@ -1,0 +1,154 @@
+[
+ {
+  "file": "brand\\LOGO ZIVILIA JPG.jpg.jpeg",
+  "bytes": 995157,
+  "mode": "RGB",
+  "size": [
+   2000,
+   2000
+  ],
+  "alpha": {
+   "zero": 0,
+   "partial": 0,
+   "full": 4000000
+  }
+ },
+ {
+  "file": "brand\\LOGO ZIVILIA PNG...png",
+  "bytes": 208882,
+  "ihdr": {
+   "w": 2000,
+   "h": 2000,
+   "bitDepth": 8,
+   "colourType": 6
+  },
+  "mode": "RGBA",
+  "size": [
+   2000,
+   2000
+  ],
+  "alpha": {
+   "zero": 3683195,
+   "partial": 18859,
+   "full": 297946
+  }
+ },
+ {
+  "file": "brand\\LOGO ZIVILIA PNG.png",
+  "bytes": 1688600,
+  "ihdr": {
+   "w": 2000,
+   "h": 2000,
+   "bitDepth": 8,
+   "colourType": 2
+  },
+  "mode": "RGB",
+  "size": [
+   2000,
+   2000
+  ],
+  "alpha": {
+   "zero": 0,
+   "partial": 0,
+   "full": 4000000
+  }
+ },
+ {
+  "file": "reference\\SAMPUL ZIVILIA JPG.jpg.jpeg",
+  "bytes": 405717,
+  "mode": "RGB",
+  "size": [
+   1500,
+   500
+  ],
+  "alpha": {
+   "zero": 0,
+   "partial": 0,
+   "full": 750000
+  }
+ },
+ {
+  "file": "reference\\ZIVILIA 1.jpg.jpeg",
+  "bytes": 109324,
+  "mode": "RGB",
+  "size": [
+   1600,
+   900
+  ],
+  "alpha": {
+   "zero": 0,
+   "partial": 0,
+   "full": 1440000
+  }
+ },
+ {
+  "file": "reference\\ZIVILIA 2.jpg.jpeg",
+  "bytes": 109289,
+  "mode": "RGB",
+  "size": [
+   1600,
+   900
+  ],
+  "alpha": {
+   "zero": 0,
+   "partial": 0,
+   "full": 1440000
+  }
+ },
+ {
+  "file": "reference\\ZIVILIA 3.jpg.jpeg",
+  "bytes": 109104,
+  "mode": "RGB",
+  "size": [
+   1600,
+   900
+  ],
+  "alpha": {
+   "zero": 0,
+   "partial": 0,
+   "full": 1440000
+  }
+ },
+ {
+  "file": "reference\\ZIVILIA 4.jpg.jpeg",
+  "bytes": 107277,
+  "mode": "RGB",
+  "size": [
+   1600,
+   900
+  ],
+  "alpha": {
+   "zero": 0,
+   "partial": 0,
+   "full": 1440000
+  }
+ },
+ {
+  "file": "reference\\ZIVILIA 5.jpg.jpeg",
+  "bytes": 103671,
+  "mode": "RGB",
+  "size": [
+   1600,
+   900
+  ],
+  "alpha": {
+   "zero": 0,
+   "partial": 0,
+   "full": 1440000
+  }
+ },
+ {
+  "file": "reference\\ZIVILIA 6.jpg.jpeg",
+  "bytes": 114577,
+  "mode": "RGB",
+  "size": [
+   1600,
+   900
+  ],
+  "alpha": {
+   "zero": 0,
+   "partial": 0,
+   "full": 1440000
+  }
+ }
+]

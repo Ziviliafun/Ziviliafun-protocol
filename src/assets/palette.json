@@ -1,0 +1,96 @@
+{
+ "logoOpaque": {
+  "file": "brand/LOGO ZIVILIA PNG.png",
+  "method": "k-means k=7 on stride-8 grid, centroid snapped to nearest real pixel",
+  "colours": [
+   {
+    "hex": "#110f1b",
+    "x": 848,
+    "y": 0,
+    "share": 0.5146
+   },
+   {
+    "hex": "#211c3c",
+    "x": 1632,
+    "y": 960,
+    "share": 0.1689
+   },
+   {
+    "hex": "#342b65",
+    "x": 1720,
+    "y": 1192,
+    "share": 0.1021
+   },
+   {
+    "hex": "#4a3c9d",
+    "x": 1784,
+    "y": 1448,
+    "share": 0.0767
+   },
+   {
+    "hex": "#fefefe",
+    "x": 528,
+    "y": 648,
+    "share": 0.0758
+   },
+   {
+    "hex": "#6452d8",
+    "x": 1792,
+    "y": 1744,
+    "share": 0.0604
+   },
+   {
+    "hex": "#acacb2",
+    "x": 752,
+    "y": 1288,
+    "share": 0.0014
+   }
+  ]
+ },
+ "banner": {
+  "file": "reference/SAMPUL ZIVILIA JPG.jpg.jpeg",
+  "colours": [
+   {
+    "hex": "#c7b4f6",
+    "x": 390,
+    "y": 0
+   },
+   {
+    "hex": "#0d0b0e",
+    "x": 132,
+    "y": 294
+   },
+   {
+    "hex": "#e4b05c",
+    "x": 1176,
+    "y": 318
+   },
+   {
+    "hex": "#19b492",
+    "x": 1044,
+    "y": 144
+   },
+   {
+    "hex": "#e0d4fa",
+    "x": 66,
+    "y": 114
+   },
+   {
+    "hex": "#9b7fe5",
+    "x": 1002,
+    "y": 120
+   },
+   {
+    "hex": "#6e59b4",
+    "x": 1206,
+    "y": 18
+   }
+  ],
+  "green": {
+   "hex": "#07b487",
+   "x": 1031,
+   "y": 179,
+   "method": "median of green-arrow pixels, snapped to real pixel"
+  }
+ }
+}

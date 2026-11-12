@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zivilia | Rule-driven desks for Robinhood Chain</title>
+<meta name="description" content="Sketch a playbook, rehearse it against past hourly candles and read the reasoning behind each call. Built for Robinhood Chain.">
+<meta name="theme-color" content="@@THEME@@">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:title" content="Zivilia | Rule-driven desks for Robinhood Chain">
+<meta property="og:description" content="Sketch a playbook, rehearse it, read the reasoning. Built for Robinhood Chain.">
+<meta property="og:url" content="https://zivilia.fun">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://zivilia.fun/assets/brand-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="preload" as="image" href="assets/logo-mark-160.png">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/main.css">
+<script type="application/json" id="register">@@REGISTER@@</script>
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<div class="progress" aria-hidden="true"><i data-progress></i></div>
+<a class="skip" href="#main">Jump to main</a>
+
+<header class="site-header">
+  <div class="container site-header__in">
+    <a class="brand" href="#top" aria-label="Zivilia, back to top">
+      <img class="brand__mark" src="assets/logo-mark-160.png" alt="" width="34" height="26">
+      <span class="brand__word">Zivilia</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#board">Board</a>
+      <a href="#studio">Studio</a>
+      <a href="#playbooks">Playbooks</a>
+      <a href="#flow">Flow</a>
+      <a href="#journal">Journal</a>
+    </nav>
+    <div class="social" data-slot="social"><!--@social--></div>
+  </div>
+  <div class="ca-bar">
+    <div class="container ca-bar__in" data-slot="ca"><!--@ca--></div>
+  </div>
+</header>
+
+<main id="main">
+<div class="hero-wrap" id="top">
+  <div class="hero-bg" aria-hidden="true">
+    <i class="blob blob--a" data-depth="0.5"></i>
+    <i class="blob blob--b" data-depth="0.8"></i>
+    <i class="blob blob--c" data-depth="0.35"></i>
+    <i class="dots"></i>
+  </div>
+  <section class="container hero">
+    <div class="status-pill" data-reveal style="--i:0" role="status">
+      <i class="live-dot" data-dot></i><span data-status-text>Connecting</span>
+    </div>
+    <h1 class="hero__title" data-reveal style="--i:1">Build a desk that <span class="grad">never blinks.</span></h1>
+    <p class="hero__lead" data-reveal style="--i:2">Zivilia turns plain rules into desks that work nonstop across Robinhood Chain. Sketch a playbook, rehearse it on past hourly candles, then read the reasoning behind each call it makes.</p>
+    <div class="hero__actions" data-reveal style="--i:3">
+      <a class="button button--primary" href="#board">Enter the board</a>
+      <a class="button button--ghost" href="#playbooks">Browse playbooks</a>
+    </div>
+
+    <div class="phones" aria-hidden="true">
+      <div class="phone phone--a" data-depth="0.25" data-reveal style="--i:4" data-spot>
+        <div class="phone__bar"><span>Studio</span><i class="phone__pill"></i></div>
+        <div class="chips"><span class="chip is-on">Trend rider</span><span class="chip">Rebound</span><span class="chip">Custom</span></div>
+        <div class="phone__metric"><small>Rehearsal result</small><b>—</b></div>
+        <div class="ctl"><span>Loss cap</span><i class="ctl__track"><i style="--w:38%"></i></i></div>
+        <div class="ctl"><span>Cap per name</span><i class="ctl__track"><i style="--w:62%"></i></i></div>
+        <span class="phone__btn">Launch desk</span>
+      </div>
+      <div class="phone phone--b" data-depth="0.5" data-reveal style="--i:5" data-spot>
+        <div class="phone__bar"><span>Rehearsal</span><i class="phone__pill"></i></div>
+        <svg class="spark-big" viewBox="0 0 200 70" preserveAspectRatio="none"><path class="spark-big__hold" d="M0 46 L40 42 L80 48 L120 40 L160 44 L200 38"/><path class="spark-big__line" d="M0 54 L30 50 L60 40 L90 44 L120 28 L150 24 L175 14 L200 8"/></svg>
+        <div class="phone__metric"><small>Edge over passive</small><b>—</b></div>
+        <div class="phone__note"><small>Latest call</small><span>Holding fire until the rolling ceiling breaks.</span></div>
+      </div>
+      <div class="phone phone--c" data-depth="0.15" data-reveal style="--i:6" data-spot>
+        <div class="phone__bar"><span>Journal</span><i class="phone__pill"></i></div>
+        <div class="mini"><em class="tag tag--buy">enter</em><span>Trigger hit. Entering.</span></div>
+        <div class="mini"><em class="tag tag--sell">exit</em><span>Target reached. Closing.</span></div>
+        <div class="mini"><em class="tag tag--hold">wait</em><span>Spread too wide. Standing by.</span></div>
+        <div class="mini"><em class="tag tag--buy">enter</em><span>Slide beyond the band. Entering.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container stats-band" aria-label="Live market summary">
+    <div class="stat-big" data-reveal style="--i:0"><span class="stat-big__label">Pools in view</span><span class="stat-big__value" data-stat="pools">—</span></div>
+    <div class="stat-big" data-reveal style="--i:1"><span class="stat-big__label">Top-ten volume</span><span class="stat-big__value" data-stat="volume">—</span></div>
+    <div class="stat-big" data-reveal style="--i:2"><span class="stat-big__label">Largest daily move</span><span class="stat-big__value" data-stat="move">—</span></div>
+    <div class="stat-big" data-reveal style="--i:3"><span class="stat-big__label">Tokens tracked</span><span class="stat-big__value" data-stat="tokens">—</span></div>
+  </section>
+</div>
+
+<section class="section" id="studio">
+  <div class="container">
+    <div class="section-heading section-heading--center" data-reveal>
+      <h2 class="section-heading__title">A single workbench, from rough sketch to live desk</h2>
+      <p class="section-heading__lead">Choose a playbook, turn the dials, rehearse on recent history, then ship it. Results fill in here when Studio opens.</p>
+    </div>
+    <div class="window" data-reveal style="--i:1">
+      <div class="window__bar"><i></i><i></i><i></i><span>zivilia / studio</span></div>
+      <div class="window__body">
+        <aside class="window__side" aria-hidden="true">
+          <span class="is-on">Overview</span><span>Ranks</span><span>Studio</span><span>Markets</span><span>Playbooks</span><span>Journal</span>
+        </aside>
+        <div class="window__main">
+          <div class="tabs" role="tablist" aria-label="Studio views" data-tabs="studio">
+            <button class="tab is-on" role="tab" aria-selected="true" data-tab="all">All playbooks</button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="live">Running</button>
+          </div>
+          <div class="window__head"><h3>Ranks</h3><p>Desks land here, scored against a passive position.</p></div>
+          <ul class="table">
+            <li class="trow trow--head"><span>Desk</span><span>Playbook</span><span>Gain</span><span>Edge</span></li>
+            <li class="trow" data-spot><span class="skel skel--w60"></span><span class="pill-soft">pending</span><span>—</span><span>—</span></li>
+            <li class="trow" data-spot><span class="skel skel--w45"></span><span class="pill-soft">pending</span><span>—</span><span>—</span></li>
+            <li class="trow" data-spot><span class="skel skel--w70"></span><span class="pill-soft">pending</span><span>—</span><span>—</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="playbooks">
+  <div class="container">
+    <div class="section-heading" data-reveal>
+      <h2 class="section-heading__title">Three playbooks, three temperaments</h2>
+      <p class="section-heading__lead">Ride strength, fade panic or script the logic by hand. Each desk is graded against passive ownership, its plainest rival.</p>
+    </div>
+    <div class="strategy-grid">
+      <a class="strategy-card" href="#flow" data-reveal style="--i:0" data-spot>
+        <div>
+          <svg class="strategy-card__icon" viewBox="0 0 72 72" aria-hidden="true"><rect x="6" y="6" width="60" height="60" rx="18" class="ico-bg"/><path d="M18 50 L30 36 L40 42 L54 22" class="ico-line"/><path d="M44 22 H54 V32" class="ico-line"/></svg>
+          <div class="strategy-card__label">Follows strength</div>
+          <h3 class="strategy-card__title">Trend rider</h3>
+          <p class="strategy-card__text">Steps in when a coin clears its recent ceiling and steps out as the push fades. Suited to fast, one-way tapes.</p>
+        </div>
+        <div class="strategy-card__foot"><span>Rehearsal result<strong>—</strong></span><span class="chev" aria-hidden="true">↗</span></div>
+      </a>
+      <a class="strategy-card" href="#flow" data-reveal style="--i:1" data-spot>
+        <div>
+          <svg class="strategy-card__icon" viewBox="0 0 72 72" aria-hidden="true"><rect x="6" y="6" width="60" height="60" rx="18" class="ico-bg"/><path d="M18 24 L30 40 L40 32 L54 50" class="ico-line"/><path d="M44 50 H54 V40" class="ico-line"/></svg>
+          <div class="strategy-card__label">Fades panic</div>
+          <h3 class="strategy-card__title">Rebound</h3>
+          <p class="strategy-card__text">Holds fire until a sharp slide drags price away from its mean, then leaves as it settles back. Suited to choppy sessions.</p>
+        </div>
+        <div class="strategy-card__foot"><span>Rehearsal result<strong>—</strong></span><span class="chev" aria-hidden="true">↗</span></div>
+      </a>
+      <a class="strategy-card" href="#flow" data-reveal style="--i:2" data-spot>
+        <div>
+          <svg class="strategy-card__icon" viewBox="0 0 72 72" aria-hidden="true"><rect x="6" y="6" width="60" height="60" rx="18" class="ico-bg"/><path d="M20 26 H52 M20 36 H44 M20 46 H36" class="ico-line"/><circle cx="52" cy="46" r="4" class="ico-dot"/></svg>
+          <div class="strategy-card__label">Hand-built</div>
+          <h3 class="strategy-card__title">Your rules</h3>
+          <p class="strategy-card__text">Stack averages, volatility bands and momentum gauges into entry and exit logic you author, plus profit targets and time caps.</p>
+        </div>
+        <div class="strategy-card__foot"><span>Rehearsal result<strong>—</strong></span><span class="chev" aria-hidden="true">↗</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="board">
+  <div class="container">
+    <div class="section-heading" data-reveal>
+      <h2 class="section-heading__title">The board</h2>
+      <p class="section-heading__lead">Tokens active across Robinhood Chain this minute, ranked by traded volume. Row one is held for Zivilia.</p>
+    </div>
+
+    <div class="ticker" data-reveal aria-label="Live ticker" data-ticker>
+      <div class="ticker__track" data-ticker-track><span class="ticker__ph skel"></span><span class="ticker__ph skel"></span><span class="ticker__ph skel"></span><span class="ticker__ph skel"></span></div>
+    </div>
+
+    <div class="market-status" data-reveal>
+      <div class="tabs" role="tablist" aria-label="Board order" data-tabs="board">
+        <button class="tab is-on" role="tab" aria-selected="true" data-tab="volume">Volume</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="movers">Movers</button>
+      </div>
+      <span class="market-status__msg" data-board-msg aria-live="polite"></span>
+    </div>
+
+    <div class="board" data-reveal data-board>
+      <div class="board__head" aria-hidden="true"><span>#</span><span>Token</span><span>Price</span><span>24h</span><span>Volume</span><span class="col-liq">Liquidity</span><span></span></div>
+      <ul class="board__rows" data-rows>
+        <!--@own-->
+        <li class="row row--skel"><span class="skel skel--w60"></span></li>
+        <li class="row row--skel"><span class="skel skel--w60"></span></li>
+        <li class="row row--skel"><span class="skel skel--w60"></span></li>
+        <li class="row row--skel"><span class="skel skel--w60"></span></li>
+        <li class="row row--skel"><span class="skel skel--w60"></span></li>
+        <li class="row row--skel"><span class="skel skel--w60"></span></li>
+        <li class="row row--skel"><span class="skel skel--w60"></span></li>
+        <li class="row row--skel"><span class="skel skel--w60"></span></li>
+        <li class="row row--skel"><span class="skel skel--w60"></span></li>
+      </ul>
+    </div>
+    <p class="markets-source">Prices from GeckoTerminal. Own pair from DexScreener.</p>
+  </div>
+</section>
+
+<section class="section section--subtle" id="flow">
+  <div class="container">
+    <div class="section-heading section-heading--center" data-reveal>
+      <h2 class="section-heading__title">From hunch to live desk</h2>
+      <p class="section-heading__lead">Nothing to code, nothing to fund, zero formulas to memorise. Draft it, test it, flip the switch.</p>
+    </div>
+    <ol class="steps">
+      <li class="step" data-reveal style="--i:0" data-spot><span class="step__n">Stage 1</span><h3>Sketch the playbook</h3><p>Begin with a preset or type rules by hand, select a handful of coins and set a loss cap.</p></li>
+      <li class="step" data-reveal style="--i:1" data-spot><span class="step__n">Stage 2</span><h3>Rehearse the past</h3><p>Hourly candles run through the settings you chose, so the outcome is visible ahead of committing.</p></li>
+      <li class="step" data-reveal style="--i:2" data-spot><span class="step__n">Stage 3</span><h3>Switch it on</h3><p>Authorize with one wallet signature. Your desk reads the tape hourly and files its reasoning.</p></li>
+      <li class="step step--soon" data-reveal style="--i:3" data-spot><span class="step__n">Stage 4 <em class="soon">Later</em></span><h3>Share a proven desk</h3><p>Package a desk with a verified history so the crowd can mirror it.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section section--dark" id="journal">
+  <div class="container feed-section">
+    <div data-reveal>
+      <div class="section-heading">
+        <h2 class="section-heading__title">Reasoning on the record</h2>
+        <p class="section-heading__lead">A desk keeps a diary. On each pass it records the signal behind the call: entered, exited or stood aside.</p>
+      </div>
+      <ul class="ticks">
+        <li>The precise trigger: daily move, gap to the mean, band position</li>
+        <li>Floors and targets logged the instant each one fires</li>
+        <li>Plain sentences you can read back and argue with</li>
+      </ul>
+    </div>
+    <div class="feed" data-reveal style="--i:1" aria-label="Illustrative journal entries">
+      <div class="feed__track" aria-hidden="true">
+        <div class="feed__item"><div class="feed__meta"><span>Sample desk</span><em class="tag tag--buy">enter</em></div><p>Trigger hit: price cleared its rolling ceiling. Entering.</p></div>
+        <div class="feed__item"><div class="feed__meta"><span>Sample desk</span><em class="tag tag--sell">exit</em></div><p>Profit target reached. Closing the whole position.</p></div>
+        <div class="feed__item"><div class="feed__meta"><span>Sample desk</span><em class="tag tag--hold">wait</em></div><p>Gap to the mean is inside the band. Standing by.</p></div>
+        <div class="feed__item"><div class="feed__meta"><span>Sample desk</span><em class="tag tag--buy">enter</em></div><p>Sharp slide below the band. Accumulating.</p></div>
+        <div class="feed__item"><div class="feed__meta"><span>Sample desk</span><em class="tag tag--sell">exit</em></div><p>Loss cap triggered. Leaving the position.</p></div>
+        <div class="feed__item"><div class="feed__meta"><span>Sample desk</span><em class="tag tag--hold">wait</em></div><p>Momentum gauge neutral. No action this pass.</p></div>
+        <div class="feed__item"><div class="feed__meta"><span>Sample desk</span><em class="tag tag--buy">enter</em></div><p>Trigger hit: price cleared its rolling ceiling. Entering.</p></div>
+        <div class="feed__item"><div class="feed__meta"><span>Sample desk</span><em class="tag tag--sell">exit</em></div><p>Profit target reached. Closing the whole position.</p></div>
+        <div class="feed__item"><div class="feed__meta"><span>Sample desk</span><em class="tag tag--hold">wait</em></div><p>Gap to the mean is inside the band. Standing by.</p></div>
+        <div class="feed__item"><div class="feed__meta"><span>Sample desk</span><em class="tag tag--buy">enter</em></div><p>Sharp slide below the band. Accumulating.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="network">
+  <div class="container">
+    <h2 class="infra__title" data-reveal>Wiring</h2>
+    <div class="infra" data-slot="infra"><!--@infra--></div>
+  </div>
+</section>
+
+<section class="section section--cta">
+  <div class="container cta" data-reveal data-spot>
+    <img class="cta__mark" src="assets/logo-mark-512.png" alt="Zivilia mark" width="160" height="119" loading="lazy">
+    <h2 class="section-heading__title">Give your rules a seat at the desk</h2>
+    <p class="section-heading__lead">Follow along while Studio opens.</p>
+    <div class="social social--cta" data-slot="social2"><!--@social2--></div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__in">
+    <div class="site-footer__brand"><img src="assets/logo-mark-160.png" alt="" width="28" height="21"><strong>Zivilia</strong><span class="muted">Zivilia.fun</span></div>
+    <p class="muted site-footer__note">Software tooling only. Nothing on this page is financial advice, and rehearsal results never promise future outcomes.</p>
+    <div class="social" data-slot="social3"><!--@social3--></div>
+  </div>
+</footer>
+<div class="sr-only" aria-live="polite" data-live></div>
+</body>
+</html>

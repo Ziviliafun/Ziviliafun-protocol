@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "note": "One record per external fact. state is stated, absent or unconfirmed. Records that are not stated carry no value and no url. Dates here are data only and are stripped from anything rendered.",
+  "records": {
+    "chain": {
+      "kind": "chain",
+      "state": "stated",
+      "label": "Robinhood Chain",
+      "chainId": "0x1237",
+      "rpc": "https://rpc.mainnet.chain.robinhood.com",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedOn": "2026-11-12"
+    },
+    "ca": {
+      "kind": "address",
+      "state": "absent",
+      "label": "Contract address",
+      "recordedOn": "2026-11-12"
+    },
+    "x": {
+      "kind": "link",
+      "state": "stated",
+      "label": "X",
+      "url": "https://x.com/zivilia",
+      "source": "client statement",
+      "recordedOn": "2026-11-12"
+    },
+    "github": {
+      "kind": "link",
+      "state": "absent",
+      "label": "GitHub",
+      "recordedOn": "2026-11-12"
+    },
+    "marketSource": {
+      "kind": "feed",
+      "state": "stated",
+      "label": "Market data",
+      "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/trending_pools?include=base_token,quote_token&page=1",
+      "source": "client statement; network slug corrected from robinhood_chain to robinhood because the former answers 404",
+      "recordedOn": "2026-11-12"
+    },
+    "pairSource": {
+      "kind": "feed",
+      "state": "stated",
+      "label": "Pair lookup",
+      "url": "https://api.dexscreener.com/latest/dex/tokens/",
+      "source": "client statement",
+      "recordedOn": "2026-11-12"
+    }
+  }
+}

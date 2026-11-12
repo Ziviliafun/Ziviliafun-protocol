@@ -1,0 +1,55 @@
+/* The only file in the project that holds colour literals.
+   Provenance: src/assets/palette.json
+   - logo group: k-means (k=7, stride-8 grid) over brand/LOGO ZIVILIA PNG.png,
+     each centroid snapped to a real pixel coordinate (x,y in the 2000x2000 source).
+   - banner group: k-means (k=7, stride-6 grid) over reference/SAMPUL ZIVILIA JPG.jpg.jpeg,
+     snapped the same way; green is the median of the arrow pixels, snapped. */
+:root {
+  /* logo */
+  --c-bg: #110f1b;        /* x848  y0     dominant field, 51.5% */
+  --c-panel: #211c3c;     /* x1632 y960   16.9% */
+  --c-deep: #342b65;      /* x1720 y1192  10.2% */
+  --c-violet: #4a3c9d;    /* x1784 y1448  7.7% */
+  --c-ink: #fefefe;       /* x528  y648   the mark itself, 7.6% */
+  --c-accent: #6452d8;    /* x1792 y1744  6.0% */
+  --c-grey: #acacb2;      /* x752  y1288  anti-aliased edge of the mark */
+  /* banner */
+  --c-lav: #c7b4f6;       /* x390  y0 */
+  --c-lav-soft: #e0d4fa;  /* x66   y114 */
+  --c-lav-mid: #9b7fe5;   /* x1002 y120 */
+  --c-gain: #07b487;      /* x1031 y179   green arrow */
+  --c-warn: #e4b05c;      /* x1176 y318   coin face, used for declines */
+
+  /* roles */
+  --color-bg: var(--c-bg);
+  --color-bg-subtle: color-mix(in srgb, var(--c-panel) 55%, var(--c-bg));
+  --color-panel: var(--c-panel);
+  --color-card: color-mix(in srgb, var(--c-ink) 4%, transparent);
+  --color-card-hover: color-mix(in srgb, var(--c-ink) 7%, transparent);
+  --color-line: color-mix(in srgb, var(--c-ink) 8%, transparent);
+  --color-line-strong: color-mix(in srgb, var(--c-ink) 14%, transparent);
+  --color-text: var(--c-ink);
+  --color-text-90: color-mix(in srgb, var(--c-ink) 90%, transparent);
+  --color-text-muted: color-mix(in srgb, var(--c-ink) 64%, transparent);
+  --color-text-faint: color-mix(in srgb, var(--c-ink) 44%, transparent);
+  --color-accent: var(--c-accent);
+  --color-accent-soft: var(--c-lav);
+  --color-accent-wash: color-mix(in srgb, var(--c-accent) 22%, transparent);
+  --color-glass: color-mix(in srgb, var(--c-bg) 78%, transparent);
+  --color-gain: var(--c-gain);
+  --color-loss: var(--c-warn);
+  --color-focus: var(--c-lav-mid);
+  --color-shadow: color-mix(in srgb, var(--c-bg) 70%, transparent);
+
+  /* scale */
+  --space-25: 2px; --space-50: 4px; --space-75: 8px; --space-100: 12px; --space-200: 16px;
+  --space-300: 24px; --space-400: 32px; --space-500: 40px; --space-600: 48px;
+  --space-700: 64px; --space-800: 80px; --space-900: 96px;
+  --radius-md: 6px; --radius-lg: 8px; --radius-xl: 12px; --radius-2xl: 16px; --radius-3xl: 24px; --radius-full: 9999px;
+  --ease-out-expo: cubic-bezier(.19, 1, .22, 1);
+  --ease-spring: cubic-bezier(.175, .885, .32, 1.1);
+  --duration-micro: .15s; --duration-enter: .6s;
+  --content-width: 1200px; --header-height: 64px;
+  --font-sans: Inter, ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
